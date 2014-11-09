@@ -15,10 +15,12 @@ public class Graph {
 	
 	public void addEdge(String src, String dest){
 			List<Node> srcNeighbours = getNeighbours(src);
-			if(srcNeighbours==null){
-					this.edges.put(src, srcNeighbours=new ArrayList<Node>());
-			}
+			if(srcNeighbours==null) this.edges.put(src, srcNeighbours=new ArrayList<Node>());
 			srcNeighbours.add(new Node(dest));
+			
+			List<Node> destNeighbours = getNeighbours(dest);
+			if(destNeighbours==null) this.edges.put(dest, destNeighbours=new ArrayList<Node>());
+			destNeighbours.add(new Node(src));
 	}
 	
 	public List<Node> getNeighbours(String vertex){
