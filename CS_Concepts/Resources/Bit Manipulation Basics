@@ -1,0 +1,28 @@
+**************************************
+Bit Manipulation Basics
+**************************************
+
+In general, an integer variable is used for bit manipulation. Depending on the programming
+language used, this may translate to different number of bits.
+
+For C++, int = 16 bits
+For Java, int = 32 bits
+
+So if the bits by themselves are indicators of a particular element being present or absent,
+then only 32 or 16 such elements can be considered. In other words, think of the integers
+as a set of elements.
+
+Let A and B be any two sets represented by integers
+
+UNION			: A | B
+INTERSECTION	: A & B
+SUBTRACTION		: A & ~B
+NEGATION		: ~A
+
+SET A BIT AT X			: A |= 1 << X
+CLEAR BIT AT X			: A &= ~(1 << X)
+TEST BIT AT X			: ( A & 1 << X ) != 0
+
+
+
+
