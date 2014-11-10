@@ -3,8 +3,24 @@ package bitmanipulation;
 public class BitBasics {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+			int A = 23;
+			
+			System.out.print("Original Pattern\t\t");
+			System.out.println(Integer.toBinaryString(A));
+			
+			System.out.print("Clear the second bit\t\t");
+			A &= ~(1<<2);
+			System.out.println(Integer.toBinaryString(A));
+			
+			System.out.print("Set the third bit\t\t");
+			A |= 1<<3;
+			System.out.println(Integer.toBinaryString(A));
+			
+			System.out.println();
+			
+			System.out.print("Get a set of 11 ones\t\t");
+			A = (1<<11) - 1;
+			System.out.println(Integer.toBinaryString(A));
 	}
 
 }
