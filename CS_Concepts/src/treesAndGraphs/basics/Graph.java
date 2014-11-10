@@ -1,4 +1,4 @@
-package treesAndGraphs.BasicImplementation;
+package treesAndGraphs.basics;
 
 import java.util.ArrayList;
 import java.util.HashMap;

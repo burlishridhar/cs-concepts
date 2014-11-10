@@ -7,8 +7,8 @@ import java.util.List;
 import java.util.Queue;
 import java.util.Set;
 
-import treesAndGraphs.BasicImplementation.Graph;
-import treesAndGraphs.BasicImplementation.Node;
+import treesAndGraphs.basics.Graph;
+import treesAndGraphs.basics.Node;
 
 public class BFSIterator implements Iterator<Node> {
 

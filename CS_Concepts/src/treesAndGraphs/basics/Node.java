@@ -1,4 +1,4 @@
-package treesAndGraphs.BasicImplementation;
+package treesAndGraphs.basics;
 
 public class Node {
 	String vertex;
