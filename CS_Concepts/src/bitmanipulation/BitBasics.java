@@ -21,6 +21,15 @@ public class BitBasics {
 			System.out.print("Get a set of 11 ones\t\t");
 			A = (1<<11) - 1;
 			System.out.println(Integer.toBinaryString(A));
+			
+			System.out.print("Get the rightmost set bit\t\t");
+			A = 88; A &= -A;
+			System.out.println(Integer.toBinaryString(A));
+			
+			System.out.print("Check if A is a power of two\t\t");
+			A = 12; 
+			System.out.println((A & (A-1))==0);
+			
 	}
 
 }
