@@ -6,17 +6,17 @@ This project serves as an implementation for basic CS concepts. I have used the 
 
 Data Structures
 
-- Arrays and Strings
-- Linked Lists
-- Stacks and Queues
+- Arrays and Strings Completed
+- Linked Lists Completed
+- Stacks and Queues Completed
 - Trees and Graphs
 
 Concepts and Algorithms
-- Bit Manipulation
-- Brain Teasers
-- Object Oriented Design
+- Bit Manipulation Completed
+- Brain Teasers Completed
+- Object Oriented Design Completed
 - Recursion
-- Sorting and Searching
+- Sorting and Searching Completed
 - Mathematical
 - Testing
 - System Design and Memory Limits
